@@ -1,52 +1,49 @@
 body {
-  background: #f9e933;
+	background: #6699ff;
+	font-size: 100%;
 }
-
 header, main, footer {
-  min-width: 855px;
+	min-width: 855px;
 }
-
 header .container, main .container, footer .container {
-  max-width: 855px;
-  margin: auto;
+	max-width: 855px;
+	margin: auto;
 }
-
 header {
-  background: white;
-  overflow: auto;
+	/*background: white;*/
+	overflow: auto;
 }
-
 header h1 {
-  float: left;
-  width: 570px;
+	float: left;
+	width: 570px;
+        font-size: xx-large;
+        font-family: 'Denk One', sans-serif;
 }
-
 header nav {
-  float: right;
-  width: 285px;
+	float: right;
+	width: 285px;
 }
-
 main {
-  background: white;
-  overflow: auto;
+	background: white;
+	overflow: auto;
 }
 
-main .left {
-  float: left;
-  width: 570px;
+footer{
+	overflow: auto;
 }
-
-main .right {
-  float: right;
-  width: 285px;
+footer .contact {
+	float: left;
+	width: 570px;
 }
-
-footer .left {
-  float: left;
-  width: 570px;
-}
-
 footer .sitemap {
-  float: right;
-  width: 285px;
+	float: right;
+	width: 285px;
+}
+h3, h4 {
+	font-family: 'Denk One', sans-serif;
+}
+
+h2 {
+	font-size: x-large;
+        font-family: 'Denk One', sans-serif;
 }
