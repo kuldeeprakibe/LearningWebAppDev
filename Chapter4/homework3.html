@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Homework 3 </title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+<script src="homework3.js"></script>
+<script src="underscore.js"></script>
+</head>
+<body>
+
+<div>
+<h2> Exercise 1 </h2>
+<p>The Average of numbers (5,6,7,8) is: </p>
+<script>
+  document.write(exercise1([5,6,7,8]));
+</script>
+</div>
+
+<div>
+<h2> Exercise 2 </h2>
+<p>The largest number of 8,1,0,3 is: </p>
+<script>
+  document.write(exercise2([8,1,0,3]));
+</script>
+</div>
+<div>
+<h2> Exercise 3 </h2>
+<p>True if Even number in (4,9,100,5) exists otherwise False: </p>
+<script>
+  document.write(exercise3([4,9,100,5]));
+</script>
+</div>
+<div>
+<h2> Exercise 4 </h2>
+<p>True if all numbers in (1,3,5,7) are even or else False: </p>
+<script>
+  document.write(exercise4([1,3,5,7]));
+</script>
+</div>
+<div>
+<h2> Exercise 5 </h2>
+<p> If array ["hello", "world!"] contains string then True or else False: </p>
+<script>
+  document.write(arrayContains(["hello", "world!"], "hello"));
+</script>
+</div>
+<div>
+<h2> Exercise 6 </h2>
+<p>True if array ["a", "b", "b", "c"] contains a string twice or else False </p>
+<script>
+  document.write(arrayContainsTwo(["a", "b", "b", "c"], "b"));
+</script>
+<br>
+<p>True if array ["a", "b", "b", "c", "c"] contains a string twice or else False </p>
+<script>
+  document.write(arrayContainsThree(["a", "b", "b", "c", "c"], "b"));
+</script>
+<br>
+<p>True if array ["a", "b", "b", "b", "b", "c"] contains a string twice or else False </p>
+<script>
+  document.write(arrayContainsNTimes(["a", "b", "b", "b", "b", "c"], "b", 4));
+</script>
+</div>
+<h2> Exercise 2 with underscore.js included</h2>
+<script>
+document.write(_.max([1, 5, 3, 4]));
+</script>
+</div>
+<div>
+<h2> Exercise 3 with underscore.js included</h2>
+<script>
+  document.write(_.some([1,2,3,4], function(x){ return (x % 2) === 0}));
+</script>
+</div>
+<div>
+<h2> Exercise 4 with underscore.js included</h2>
+<script>
+  document.write(_.every([1,2,3,4], function(x){ return (x % 2) === 0}));
+</script>
+</div>
+</body>
+</html>
